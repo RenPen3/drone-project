@@ -1,0 +1,33 @@
+:root {
+  /* --primary-color: #17153B;
+  --highlight-color: #C8ACD6;
+  --white-color: #FAFAFA; */
+  --primary-color: #00224D;
+  --secondary-color: #A0153E;
+  --contingent-color: #5D0E41;
+  --highlight-color: #FF204E;
+  --white-color: #FAFAFA;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #000000;
+  scroll-behavior: smooth;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
