@@ -15,6 +15,11 @@
 
   <body>
     <header class="main-header">
+      <div class="announcement-bar">
+        <a class="announcement-bar__link" href="#">Get 25% OFF Your First Purchase &nbsp;<i
+            class="fa-solid fa-arrow-right"></i></a>
+      </div>
+
       <div class="container">
         <div class="logo">
           <a href="/">
@@ -32,60 +37,75 @@
                 <li><a href="services/aerial-photography.html">Aerial Photography</a></li>
                 <li><a href="/services/drone-videography">Drone Videography</a></li>
                 <li><a href="/services/mapping-surveying">Mapping & Surveying</a></li>
-                <li><a href="/services/training-certification">Training & Certification</a></li>
-                <li><a href="/services/custom-solutions">Custom Solutions</a></li>
+                <!-- <li><a href="/services/training-certification">Training & Certification</a></li> -->
+                <!-- <li><a href="/services/custom-solutions">Custom Solutions</a></li> -->
               </ul>
             </li>
             <li><a href="#gallery">Gallery</a></li>
             <li><a href="#connect">Connect</a></li>
           </ul>
         </nav>
+        <a href="#">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </a>
+
+
+
       </div>
     </header>
 
     <main>
 
-      <section>
-        <div class="header">
-          <div class="header-content">
-            <h1>Professional Drone Footage</h1>
-            <p>Capturing breathtaking aerial views for your projects</p><a href="#gallery"
-              class="cta-button">View Gallery</a>
-          </div>
+      <section class="header"
+        style="background-image: url('background_vid1.mp4');height: 100vh;width: 100%;background-position: center center;background-size: cover;background-repeat: no-repeat;">
+        <div class="header-content">
+          <h1>Professional Drone Footage</h1>
+          <p>Capturing breathtaking aerial views for your projects</p><a href="#gallery"
+            class="cta-button">View Gallery</a>
         </div>
+        <!-- <div class="hero-bg">
+          <iframe src="" width="100%" height="100%" allow="autoplay" controls="0"
+            frameborder="0"></iframe>
+        </div> -->
+
       </section>
 
       <section id="services" class="services">
-        <h2>Our Services</h2>
-        <div class="services-container">
-          <div class="service-item"><i class="fas fa-camera"></i>
-            <h3>Aerial Photography</h3>
-            <p>Professional drone photography for real estate,
-              events,
-              and commercial purposes.</p>
-          </div>
-          <div class="service-item"><i class="fas fa-video"></i>
-            <h3>Drone Videography</h3>
-            <p>High-quality aerial footage for documentaries,
-              commercials,
-              and special events.</p>
-          </div>
-          <div class="service-item"><i class="fas fa-map-marked-alt"></i>
-            <h3>Mapping & Surveying</h3>
-            <p>Precise aerial mapping and surveying services for construction and development
-              projects.</p>
-          </div>
-          <div class="service-item"><i class="fas fa-graduation-cap"></i>
-            <h3>Training & Certification</h3>
-            <p>Comprehensive drone pilot training programs and certification assistance.</p>
+        <div class="service-content">
+
+
+          <h2 class="titles">Our Services</h2>
+          <div class="services-container">
+            <div class="service-item"><i class="fas fa-camera"></i>
+              <h3>Aerial Photography</h3>
+              <p>Professional drone photography for real estate,
+                events,
+                and commercial purposes.</p>
+            </div>
+            <div class="service-item"><i class="fas fa-video"></i>
+              <h3>Drone Videography</h3>
+              <p>High-quality aerial footage for documentaries,
+                commercials,
+                and special events.</p>
+            </div>
+            <div class="service-item"><i class="fas fa-map-marked-alt"></i>
+              <h3>Mapping & Surveying</h3>
+              <p>Precise aerial mapping and surveying services for construction and development
+                projects.</p>
+            </div>
+            <div class="service-item"><i class="fas fa-graduation-cap"></i>
+              <h3>Training & Certification</h3>
+              <p>Comprehensive drone pilot training programs and certification assistance.</p>
+            </div>
           </div>
         </div>
       </section>
 
       <section class="gallery" id="gallery">
-        <h2>Featured Drone Footage</h2>
         <div class="wrapper">
           <div class="gallery-item">
+            <h2 class="titles">Featured Drone Footage</h2>
+            <h3 class="gallery-titles">Cityscape Aerial View</h3>
             <a href="#">
               <iframe width="100%" height="350"
                 src="https://www.youtube.com/embed/lHSh9-DL9YA?si=TB0jPeeiOd7ljyz1"
@@ -95,12 +115,13 @@
               <!-- <img src="https://placehold.co/600x400" alt="Cityscape Aerial View"></img> -->
               <!-- <video src="drone-footage1.mp4" autoplay muted loop></video> -->
             </a>
-            <div class="gallery-item-info">
+            <!-- <div class="gallery-item-info">
               <h3>Cityscape Aerial View</h3>
-              <!-- <p>$199</p><a href="#" class="cta-button">Purchase</a> -->
-            </div>
+              <p>$199</p><a href="#" class="cta-button">Purchase</a>
+            </div> -->
           </div>
           <div class="gallery-item">
+            <h3 class="gallery-titles">Mountain Range Flight</h3>
             <a href="#">
               <iframe width="100%" height="350"
                 src="https://www.youtube.com/embed/ZSOy_pKagFQ?si=cW03ZoSKN8T5lu0A"
@@ -112,12 +133,13 @@
                 muted loop></video> -->
             </a>
 
-            <div class="gallery-item-info">
+            <!-- <div class="gallery-item-info">
               <h3>Mountain Range Flight</h3>
-              <!-- <p>$249</p><a href="#" class="cta-button">Purchase</a> -->
-            </div>
+              <p>$249</p><a href="#" class="cta-button">Purchase</a>
+            </div> -->
           </div>
           <div class="gallery-item">
+            <h3 class="gallery-titles">Coastal Sunset</h3>
             <a href="#">
               <iframe width="100%" height="350"
                 src="https://www.youtube.com/embed/lHSh9-DL9YA?si=TB0jPeeiOd7ljyz1"
@@ -127,12 +149,13 @@
               <!-- <img src="https://placehold.co/600x400" alt="Cityscape Aerial View"></img> -->
               <!-- <video src="drone-footage3.mp4" autoplay muted loop></video> -->
             </a>
-            <div class="gallery-item-info">
+            <!-- <div class="gallery-item-info">
               <h3>Coastal Sunset</h3>
-              <!-- <p>$299</p><a href="#" class="cta-button">Purchase</a> -->
-            </div>
+              <p>$299</p><a href="#" class="cta-button">Purchase</a>
+            </div> -->
           </div>
           <div class="gallery-item">
+            <h3 class="gallery-titles">Forest Exploration</h3>
             <a href="#">
               <iframe width="100%" height="350"
                 src="https://www.youtube.com/embed/ZSOy_pKagFQ?si=cW03ZoSKN8T5lu0A"
@@ -142,10 +165,10 @@
               <!-- <img src="https://placehold.co/600x400" alt="Cityscape Aerial View"></img> -->
               <!-- <video src="drone-footage4.mp4" autoplay muted loop></video> -->
             </a>
-            <div class="gallery-item-info">
+            <!-- <div class="gallery-item-info">
               <h3>Forest Exploration</h3>
-              <!-- <p>$199</p><a href="#" class="cta-button">Purchase</a> -->
-            </div>
+              <p>$199</p><a href="#" class="cta-button">Purchase</a>
+            </div> -->
           </div>
         </div>
       </section>
@@ -158,7 +181,7 @@
               consultation with our expert pilots.</p>
             <div class="banner-cta">
               <a href="#contact" class="cta-button">Book Now</a>
-              <p class="banner-note">*Limited time offer. Terms and conditions apply.</p>
+              <small class="banner-note">*Limited time offer. Terms and conditions apply.</small>
             </div>
           </div>
         </div>
@@ -167,7 +190,7 @@
       <section id="connect" class="social-connect">
         <div class="container">
           <div class="social-connect-content">
-            <h2>Connect With Us on Social Media</h2>
+            <h2 class="titles">Connect With Us on Social Media</h2>
             <p>Follow us for the latest drone footage, behind-the-scenes content, and special
               offers!</p>
             <div class="social-grid">
