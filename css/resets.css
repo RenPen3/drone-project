@@ -9,6 +9,7 @@
   --contingent-color: #5D0E41;
   --highlight-color: #FF204E;
   --white-color: #FFFFFF;
+  --bg-color: #f8f9fa;
 }
 
 *, *::before, *::after {
@@ -31,6 +32,7 @@ li {
 }
 
 a {
+  color: #000000;
   text-decoration: none;
 }
 

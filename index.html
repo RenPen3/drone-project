@@ -14,51 +14,43 @@
   </head>
 
   <body>
-    <header class="main-header">
-      <div class="announcement-bar">
-        <a class="announcement-bar__link" href="#">Get 25% OFF Your First Purchase &nbsp;<i
+    <header class="header">
+      <!-- <div class="header__announce-bar">
+        <a class="header__announce-bar__link" href="#">Get 25% OFF Your First Purchase &nbsp;<i
             class="fa-solid fa-arrow-right"></i></a>
-      </div>
+      </div> -->
 
-      <div class="container">
-        <div class="logo">
-          <a href="/">
-            René D. Perez Video Productions
-            <!-- <img src="logo.png" alt="Drone Footage Logo"> -->
-          </a>
+      <div class="header-content">
+
+        <div class="header-content__logo">
+          <a href="#">RDP Video Productions</a>
         </div>
-        <nav class="main-nav">
+
+        <nav class="header-content__main-nav">
           <button class="mobile-menu-toggle" aria-label="Toggle menu"><span></span><span></span>
           </button>
-          <ul class="nav-list">
+          <ul class="header-content__nav-list">
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services&nbsp; <i class="fa-solid fa-caret-down"></i></a>
               <ul class="dropdown">
-                <li><a href="services/aerial-photography.html">Aerial Photography</a></li>
+                <li><a href="/services/aerial-photography.html">Aerial Photography</a></li>
                 <li><a href="/services/drone-videography">Drone Videography</a></li>
                 <li><a href="/services/mapping-surveying">Mapping & Surveying</a></li>
-                <!-- <li><a href="/services/training-certification">Training & Certification</a></li> -->
-                <!-- <li><a href="/services/custom-solutions">Custom Solutions</a></li> -->
               </ul>
             </li>
             <li><a href="#gallery">Gallery</a></li>
             <li><a href="#connect">Connect</a></li>
           </ul>
         </nav>
-        <a href="#">
-          <i class="fa-solid fa-cart-shopping"></i>
-        </a>
 
-
-
+        <a class="header-content__btn" href="#">Business Inquiries</a>
       </div>
     </header>
 
     <main>
 
-      <section class="header"
-        style="background-image: url('background_vid1.mp4');height: 100vh;width: 100%;background-position: center center;background-size: cover;background-repeat: no-repeat;">
-        <div class="header-content">
+      <section class="hero" background-image="url('background_vid1.mp4')">
+        <div class="hero-content">
           <h1>Professional Drone Footage</h1>
           <p>Capturing breathtaking aerial views for your projects</p><a href="#gallery"
             class="cta-button">View Gallery</a>
@@ -76,27 +68,28 @@
 
           <h2 class="titles">Our Services</h2>
           <div class="services-container">
-            <div class="service-item"><i class="fas fa-camera"></i>
+            <a href="services/aerial-photography.html" class="service-item"><i
+                class="fas fa-camera"></i>
               <h3>Aerial Photography</h3>
               <p>Professional drone photography for real estate,
                 events,
                 and commercial purposes.</p>
-            </div>
-            <div class="service-item"><i class="fas fa-video"></i>
+            </a>
+            <a href="/services/drone-videography" class="service-item"><i class="fas fa-video"></i>
               <h3>Drone Videography</h3>
               <p>High-quality aerial footage for documentaries,
                 commercials,
                 and special events.</p>
-            </div>
-            <div class="service-item"><i class="fas fa-map-marked-alt"></i>
+            </a>
+            <a href="#" class="service-item"><i class="fas fa-map-marked-alt"></i>
               <h3>Mapping & Surveying</h3>
               <p>Precise aerial mapping and surveying services for construction and development
                 projects.</p>
-            </div>
-            <div class="service-item"><i class="fas fa-graduation-cap"></i>
+            </a>
+            <!-- <div class="service-item"><i class="fas fa-graduation-cap"></i>
               <h3>Training & Certification</h3>
               <p>Comprehensive drone pilot training programs and certification assistance.</p>
-            </div>
+            </div> -->
           </div>
         </div>
       </section>
@@ -194,26 +187,26 @@
             <p>Follow us for the latest drone footage, behind-the-scenes content, and special
               offers!</p>
             <div class="social-grid">
-              <a href="#" class="social-item">
+              <!-- <a href="#" class="social-item">
                 <i class="fab fa-instagram"></i>
-                <!-- <h3>Instagram</h3> -->
+                <h3>Instagram</h3>
                 <p>@droneservices</p>
-              </a>
-              <a href="#" class="social-item">
+              </a> -->
+              <!-- <a href="#" class="social-item">
                 <i class="fab fa-facebook"></i>
-                <!-- <h3>Facebook</h3> -->
+                <h3>Facebook</h3>
                 <p>DroneServices</p>
-              </a>
-              <a href="#" class="social-item">
+              </a> -->
+              <!-- <a href="#" class="social-item">
                 <i class="fab fa-x-twitter"></i>
-                <!-- <h3>X</h3> -->`
+                <h3>X</h3>
                 <p>@droneservices</p>
-              </a>
+              </a> -->
               <a href="https://youtube.com/@reneperezvideoproductions?si=rY3wsCPtLKE9Rr8i"
                 target="_blank" class="social-item">
                 <i class="fab fa-youtube"></i>
                 <!-- <h3>YouTube</h3> -->
-                <p>Rene Perez Video Productions</p>
+                <p>RDP Video Productions</p>
               </a>
             </div>
           </div>
@@ -256,7 +249,10 @@
               Sky City,
               SC 12345</p> -->
             <!-- <p><i class="fas fa-phone"></i>(555) 123-4567</p> -->
-            <p><i class="fas fa-envelope"></i>info@droneservices.com</p>
+            <a href="mailto:rdpvideoproductions@gmail.com" style="color: #000000;"><i
+                class="fas fa-envelope"></i>
+              &nbsp;rdpvideoproductions@gmail.com</a>
+            </a>
           </div>
           <div class="footer-section">
             <h4>Quick Links</h4>
@@ -281,7 +277,7 @@
           </div>
         </div>
         <div class="footer-bottom">
-          <p>&copy; 2024 René D. Perez Video Productions. All rights reserved.</p>
+          <p>&copy; 2025 RDPVideoProductions. All rights reserved.</p>
         </div>
       </div>
     </footer>
